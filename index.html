@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <div id="clock"></div>
+    <!-- Alarm Container -->
+    <div class="alarm-container">
+        <h3>Set Alarm Time</h3>
+        <div class="alarm-item">
+            <div class="alarmhrs">
+                <select id="alarmhrs" class="alarm-values">
+                    <option value="hour" selected hidden>HH</option>
+                </select>
+            </div>
+
+            <div class="alarmmins">
+                <select id="alarmmins" class="alarm-values">
+                    <option value="min" selected hidden>MM</option>
+                </select>
+            </div>
+
+            <div class="alarmsecs">
+                <select id="alarmsecs" class="alarm-values">
+                    <option value="sec" selected hidden>SS</option>
+                </select>
+            </div>
+
+            <div class="ampm">
+                <select id="ampm" class="alarm-values">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
+
+            <!-- Add button -->
+            <div class="add">
+                <button id="add" class="add-button">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alarms list -->
+
+    <div class="alarms-list">
+        <ul id="list">
+
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

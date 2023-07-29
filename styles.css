@@ -1,0 +1,96 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #fff;
+}
+
+#clock{
+    font-family: 'Orbitron', sans-serif;
+    padding: 30px;
+    background: brown;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 5px;
+    box-shadow: 1px 2px 13px #ada397, 1px 2px 23px #ada397, 1px 2px 33px #ada397;
+
+}
+
+.alarm-container{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 1px 2px 13px #ada397, 1px 2px 23px #ada397, 1px 2px 33px #ada397;
+    width: 60%;
+    margin: auto;
+}
+
+.alarm-container h3{
+    font-size: 43px;
+    letter-spacing: normal;
+    color: brown;
+    font-family: sans-serif;
+    
+}
+
+.alarm-item{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  padding: 30px 0;
+}
+
+.alarm-item div select{
+    height: 40px;
+    width: 80px;
+    font-size: 22px;
+}
+
+#add{
+    height: 40px;
+    width: 80px;
+    font-size: 22px;
+    margin-left: 80px;
+    cursor: pointer;   
+}
+
+
+.add button:hover{
+    background: brown;
+}
+
+.alarms-list{
+    background: #fff;
+    margin: auto;
+    box-shadow: 1px 2px 13px #ada397, 1px 2px 23px #ada397, 1px 2px 33px #ada397;
+    width: 60%;
+}
+
+
+ul li{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 20px;   
+}
+
+
+.delete {
+    height: 28px;
+    padding: 5px 0px;
+    border-radius: 3px;
+}
+  .delete:hover {
+    background: #f2f2f2;
+    cursor: pointer;
+}
